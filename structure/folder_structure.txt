@@ -1,0 +1,11 @@
+InPulso_Web/
+├── PHPMailer/
+│   └── src/
+│       ├── PHPMailer.php
+│       ├── SMTP.php
+│       └── Exception.php
+├── enviar_regalo.php
+├── regalo.pdf
+├── index.html
+├── gracias.html
+└── (otros archivos: CSS, JS, imágenes, etc.)
