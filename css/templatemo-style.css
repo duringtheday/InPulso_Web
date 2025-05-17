@@ -173,34 +173,40 @@ small {
 }
 
 .tm-home-left {
-  max-width: 420px;
+  max-width: 600px;
   width: 100%;
   margin-right: 185px;
+  padding: 54px;
+  background-color: rgb(16, 25, 17, 0.8);
 }
 
 .tm-home-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: rgb(16, 25, 17, 0.8); */
 }
 
 .tm-slogan {
   font-size: 1.4rem;
   margin-bottom: 30px;
+  color: #d0984e;
 }
 
 .tm-home-hr {
-  border-top-color: white;
+  border-top-color: #d0984e;
   margin-bottom: 30px;
 }
 
 .tm-home-title {
   font-size: 3.5rem;
   margin-bottom: 40px;
+  color: #d0984e;
 }
 
 .tm-home-text {
   margin-bottom: 47px;
+  color: #d0984e;
 }
 
 .btn {
@@ -238,8 +244,8 @@ small {
 }
 
 .tm-feature-box {
-  max-width: 360px;
-  min-height: 480px;
+  max-width: 680px;
+  min-height: 580px;
   border-radius: 10px;
   text-align: center;
   padding: 40px 50px;
@@ -349,10 +355,16 @@ p {
   font-size: 1rem;
   padding-top: 50px;
   padding-bottom: 45px;
+  color: #d0984e !important;
+  text-shadow: 2px 2px 4px #101911 !important;
 }
 
 .tm-copyright-link {
+  padding: 5px;
+  background-color: #101911;
   color: white;
+  text-shadow: 2px 2px 4px #101911 !important;
+
 }
 
 .tm-copyright-link:hover {
@@ -368,6 +380,8 @@ p {
   font-size: 2.5rem;
   margin-top: 72px;
   margin-bottom: 40px;
+  color: #d0984e;
+  text-shadow: 2px 2px 4px #101911;
 }
 
 .tm-about-box {
@@ -377,9 +391,10 @@ p {
 }
 
 .tm-about-title-hr {
-  border-top-color: rgba(16, 25, 17, 1);
+  border-top-color: #d0984e;
   max-width: 450px;
   margin-bottom: 0;
+  box-shadow: 0 2px 4px #101911;
 }
 
 .tm-bg-black-transparent {
@@ -395,7 +410,7 @@ p {
   width: 83px;
   height: 83px;
   font-size: 2.2rem;
-  border: 1px solid white;
+  border: 1px solid #d0984e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -426,6 +441,10 @@ p {
 
 .tm-app-feature-header {
   font-size: 2.8rem;
+  color: #d0984e;
+}
+.small {
+  color: #d0984e;
 }
 
 .tm-app-feature-box {
@@ -448,14 +467,18 @@ p {
 
 .tm-btn-app-feature {
   margin-bottom: 35px;
+  background-color: #101911;
+  box-shadow: 1px 1px 5px 1px #d0984e;
+  color: #d0984e;
 }
 
 .tm-app-feature-description-box {
-  color: #2C3030;
+  color: #d0984e;
 }
 
 .tm-app-feature-title {
   font-size: 2rem;
+  color: #d0984e;
 }
 
 /* Services */
